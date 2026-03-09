@@ -1,4 +1,4 @@
-name: Konverter Suhu Workflow
+name: Konverter Suhu workflows
 
 on: [push]
 
