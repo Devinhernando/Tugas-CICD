@@ -1,0 +1,20 @@
+name: Konverter Suhu Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.14"
+    - name: Install pipenv
+      run: pip install pipenv
+    - name: Install dependency
+      run: pipenv install --dev
+    - name: run test
+      run: pipenv run pytest
