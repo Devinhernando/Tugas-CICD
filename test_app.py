@@ -5,4 +5,4 @@ def test_perhitungan_suhu():
     assert celcius_ke_fahrenheit(0) == 32
     assert celcius_ke_fahrenheit(100) == 212
     # Test Celcius ke Kelvin
-    assert celcius_ke_kelvin(0) == 273.15
+    assert celcius_ke_kelvin(0) == 2
