@@ -2,7 +2,7 @@ def celcius_ke_fahrenheit(c):
     return (c * 9/5) + 32
 
 def celcius_ke_kelvin(c):
-    return c + 273.15
+    return c + 2
 
 def menu():
     print("\n=== APLIKASI KONVERTER SUHU ===")
